@@ -1,0 +1,1 @@
+A high-performance landing page project focused on layout stability and interactivity. Implemented a custom-built JavaScript carousel and a localStorage-based theme switcher to ensure a seamless user experience across devices. Optimized for accessibility and fast load times without the use of heavy external libraries.
