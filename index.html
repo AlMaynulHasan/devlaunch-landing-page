@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevLaunch | Portfolio Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Dev<span>Launch</span></div>
+            
+            <div class="nav-right">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#signup" class="btn-nav">Get Started</a></li>
+                </ul>
+
+                <button id="theme-toggle" class="theme-btn" title="Toggle Dark Mode">
+                    <span id="theme-icon">🌙</span>
+                </button>
+
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Build your dream project <span class="text-gradient">faster</span>.</h1>
+            <ul class="benefits">
+                <li><span class="check">✓</span> No credit card required</li>
+                <li><span class="check">✓</span> Setup in 2 minutes</li>
+                <li><span class="check">✓</span> 24/7 Support</li>
+            </ul>
+            <button id="cta-scroll" class="btn-primary">Start Free Trial</button>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Fast</h3>
+                    <p>Optimized for speed. Your site loads in the blink of an eye.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Secure</h3>
+                    <p>AES-256 encryption keeps your data safe and sound.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">📱</div>
+                    <h3>Responsive</h3>
+                    <p>Looks gorgeous on any device, from phone to desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Trusted by Developers</h2>
+            <div class="slider-wrapper">
+                <div class="slider" id="slider">
+                    <div class="slide">
+                        <p>"The best investment I've made for my workflow."</p>
+                        <cite>— Alex River, Senior Dev</cite>
+                    </div>
+                    <div class="slide">
+                        <p>"Absolutely seamless dark mode integration."</p>
+                        <cite>— Sarah Chen, UI Designer</cite>
+                    </div>
+                    <div class="slide">
+                        <p>"Clean, modular, and extremely fast."</p>
+                        <cite>— Mike Ross, Engineer</cite>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button id="prevBtn">←</button>
+                    <div class="dots" id="dots"></div>
+                    <button id="nextBtn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup">
+        <div class="container">
+            <h3>Ready to scale?</h3>
+            <form id="newsletter-form" class="signup-form">
+                <input type="email" id="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Claim Access</button>
+            </form>
+            <div id="form-success" class="hidden">Success! Trial link sent. 🚀</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-logo">Dev<span>Launch</span></div>
+            <p>&copy; 2026 DevLaunch Portfolio Project.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
